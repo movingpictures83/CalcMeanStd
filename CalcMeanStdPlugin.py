@@ -29,8 +29,8 @@ class CalcMeanStdPlugin:
 
 
    def output(self, outputfile):
-      print "[CalcMeanStdPlugin] Two left: ", self.mean - 2*self.std
-      print "[CalcMeanStdPlugin] One left: ", self.mean - self.std
-      print "[CalcMeanStdPlugin] Mean: ", self.mean
-      print "[CalcMeanStdPlugin] One right: ", self.mean + self.std
-      print "[CalcMeanStdPlugin] Two right: ", self.mean + 2*self.std
+      print ("[CalcMeanStdPlugin] Two left:  "+str(self.mean - 2*self.std))
+      print ("[CalcMeanStdPlugin] One left:  "+str(self.mean - self.std))
+      print ("[CalcMeanStdPlugin] Mean:  "+str(self.mean))
+      print ("[CalcMeanStdPlugin] One right:  "+str(self.mean + self.std))
+      print ("[CalcMeanStdPlugin] Two right:  "+str(self.mean + 2*self.std))

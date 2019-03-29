@@ -2,7 +2,7 @@
 # Language: Python
 # Input: NOA (nodes and values)
 # Output: none (mean and standard deviation printed to the screen)
-# Tested with: PluMA 1.0, Python 2.7 
+# Tested with: PluMA 1.0, Python 3.6
 
 PluMA plugin that calculates mean and standard deviation.
 
